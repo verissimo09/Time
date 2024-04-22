@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tempo</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body> 
+    <main>
+        <form>
+            <input type="text" id="name" autocomplete="off">
+            <button>
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </button>
+        </form>
+        <section class="result">
+
+            <figure class="name">
+                <figcaption>Angola</figcaption> 
+                <img src="https://flagsapi.com/AO/shiny/64.png">
+            </figure>
+
+            <figure class="temperature">
+                <img src="https://openweathermap.org/weathermap?basemap=map&cities=true&layer=radar&lat=-8.8368&lon=13.2343&zoom=6">
+                <figcaption>
+                    <span>31</span>
+                    <sup>o</sup>
+                </figcaption> 
+            </figure>
+            <p class="description"></p>
+            <ul>
+                <li>
+                    <span>Color</span>
+                    <i class="fa-solid fa-cloud"></i>
+                    <span id="clouds">98</span>%
+                </li>
+                <li>
+                    <span>Humidade</span>
+                    <i class="fa-solid fa-droplet"></i>
+                    <span id="humidity">98</span>%
+                </li>
+                <li>
+                    <span>Pressão</span>
+                    <i class="fa-solid fa-gauge"></i>
+                    <span id="pressure">1011</span>hPa
+                </li>
+            </ul>
+        </section>
+       
+    </main>
+    <div class="copy">
+        &copy; 2024  App by  <a href="https://verissimo09.github.io/Portfolio/" target="_blank">Veríssimo Conceição</a>.<br />
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
